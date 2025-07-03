@@ -10,8 +10,8 @@ import ProjectImg1 from "../../assets/img/projects/image_2_automating_member_onb
 import ProjectImg2 from "../../assets/img/projects/analysis-brainstorming-business-1571699 (1).jpg";
 import ProjectImg3 from "../../assets/img/projects/ZfSaIHYkiKrtlJ72_RPAWorkflow.jpg";
 import ProjectImg4 from "../../assets/img/projects/survey-form-analysis-feedback-inspection-600nw-2458102065 (2).webp";
-import ProjectImg5 from "../../assets/img/projects/concept-illustration-interface-programmation-applications_108061-1046.webp";
-import ProjectImg6 from "../../assets/img/projects/6267a1eeb5de188bb281bc88_How-to-Write-an-Automated-Test-Script-Using-Selenium-1280x720 (2) (1) (1).jpg";
+import ProjectImg5 from "../../assets/img/projects/hand-drawn-flat-design-devops-illustration_23-2149379503.jpg";
+import ProjectImg6 from "../../assets/img/projects/10-things-to-consider-when-choosing-a-test-automation-tool.webp";
 import AddImage2 from "../../assets/img/add/businessman-glancing-window-highrise-office-3177_t (1).jpg";
 
 export default function Projects() {
