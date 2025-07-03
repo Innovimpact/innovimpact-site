@@ -1,14 +1,16 @@
 import React from "react";
 import styled from "styled-components";
+import { Link } from 'react-scroll';
+
 // Components
 import ClientSlider from "../Elements/ClientSlider";
 import ServiceBox from "../Elements/ServiceBox";
 import FullButton from "../Buttons/FullButton";
 // Assets
 import AddImage1 from "../../assets/img/add/1_MCinLoihNyqF9MZbhmXORg (1).jpg";
-import AddImage2 from "../../assets/img/add/A_image2-20240709171104-153 (1).png";
-import AddImage3 from "../../assets/img/add/static-live-dynamic-report-best (1).jpg";
-import AddImage4 from "../../assets/img/add/GettyImages-1290674359 (1).jpg";
+import AddImage2 from "../../assets/img/add/2.bf428a23.png";
+import AddImage3 from "../../assets/img/add/3.0fb8f7f8.png";
+import AddImage4 from "../../assets/img/add/4.bff77eac.png";
 
 export default function Services() {
   return (
@@ -75,12 +77,14 @@ export default function Services() {
 
                 </p>
                 <ButtonsRow className="flexNullCenter" style={{ margin: "30px 0"}}>
-                  <div style={{ width: "190px" }}>
+                  {/* <div style={{ width: "190px" }}>
                     <FullButton title="Get Started" action={() => alert("clicked")} />
-                  </div>
-                  <div style={{ width: "190px", marginLeft: "15px" }}>
-                    <FullButton title="Contact Us" action={() => alert("clicked")} border />
-                  </div>
+                  </div> */}
+                <div style={{ width: "190px", marginLeft: "15px" }}>
+                  <Link to="contact" smooth={true} duration={500} offset={-80}>
+                    <FullButton title="Contact Us" border />
+                  </Link>
+                </div>
                 </ButtonsRow>
               </AddLeft>
               <AddRight>

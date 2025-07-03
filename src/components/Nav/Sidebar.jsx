@@ -11,8 +11,8 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
       <SidebarHeader className="flexSpaceCenter">
         <div className="flexNullCenter">
           <LogoIcon />
-          <h1 className="whiteColor font20" style={{ marginLeft: "15px" }}>
-            fanatic
+          <h1 className="font20 extraBold" style={{ marginLeft: "15px" }}>
+            InnoV<span style={{ fontWeight: "normal" }}>Impact</span>
           </h1>
         </div>
         <CloseBtn onClick={() => toggleSidebar(!sidebarOpen)} className="animate pointer">
@@ -46,7 +46,7 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
             smooth={true}
             offset={-60}
           >
-            Services
+            What We Build
           </Link>
         </li>
         <li className="semiBold font15 pointer">
@@ -60,10 +60,10 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
             smooth={true}
             offset={-60}
           >
-            Projects
+            Expected Realizations
           </Link>
         </li>
-        <li className="semiBold font15 pointer">
+        {/* <li className="semiBold font15 pointer">
           <Link
             onClick={() => toggleSidebar(!sidebarOpen)}
             activeClass="active"
@@ -90,7 +90,7 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
           >
             Pricing
           </Link>
-        </li>
+        </li> */}
         <li className="semiBold font15 pointer">
           <Link
             onClick={() => toggleSidebar(!sidebarOpen)}
@@ -107,15 +107,22 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
         </li>
       </UlStyle>
       <UlStyle className="flexSpaceCenter">
-        <li className="semiBold font15 pointer">
+        {/* <li className="semiBold font15 pointer">
           <a href="/" style={{ padding: "10px 30px 10px 0" }} className="whiteColor">
             Log in
           </a>
-        </li>
+        </li> */}
         <li className="semiBold font15 pointer flexCenter">
-          <a href="/" className="radius8 lightBg" style={{ padding: "10px 15px" }}>
+          <Link
+            to="contact"
+            smooth={true}
+            duration={500}
+            offset={-80}
+            className="radius8 lightBg"
+            style={{ padding: "10px 15px", cursor: "pointer" }}
+          >
             Get Started
-          </a>
+          </Link>
         </li>
       </UlStyle>
     </Wrapper>

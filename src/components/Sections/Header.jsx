@@ -6,6 +6,8 @@ import FullButton from "../Buttons/FullButton";
 import HeaderImage from "../../assets/img/modern-office-interior-with-blue-walls-and-chairs-ai-generative-free-photo.jpeg";
 import QuotesIcon from "../../assets/svg/Quotes";
 import Dots from "../../assets/svg/Dots";
+import { Link } from 'react-scroll';
+
 
 export default function Header() {
   return (
@@ -19,7 +21,9 @@ InnoV Impact is a forward-driven automation startup helping businesses eliminate
 We build custom automation solutions that save time, reduce error, and improve decision-making across operations.
           </HeaderP>
           <BtnWrapper>
-            <FullButton title="Get Started" />
+            <Link to="contact" smooth={true} duration={500} offset={-80}>
+              <FullButton title="Get Started" />
+            </Link>
           </BtnWrapper>
         </div>
       </LeftSide>

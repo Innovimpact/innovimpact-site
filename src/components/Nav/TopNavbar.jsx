@@ -71,11 +71,11 @@ export default function TopNavbar() {
             </li>
           </UlWrapper>
           <UlWrapperRight className="flexNullCenter">
-            <li className="semiBold font15 pointer">
+            {/* <li className="semiBold font15 pointer">
               <a href="/" style={{ padding: "10px 30px 10px 0" }}>
                 Log in
               </a>
-            </li>
+            </li> */}
               {/* <li className="semiBold font15 pointer">
                 <button onClick={toggleLanguage} style={{
                   background: "transparent",
