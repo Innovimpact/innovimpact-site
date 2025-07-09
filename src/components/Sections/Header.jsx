@@ -36,7 +36,7 @@ We build custom automation solutions that save time, reduce error, and improve d
             </QuotesWrapper>
             <div>
               <p className="font15 whiteColor">
-                <em>🔵 Empowering businesses through smart automation & seamless digital transformation.</em>
+                <em>🔵 We Analyze. We Automate. We Deliver Business Impact — First of Its Kind in Morocco.</em>
               </p>
               <p className="font13 orangeColor textRight" style={{marginTop: '10px'}}>--</p>
             </div>
