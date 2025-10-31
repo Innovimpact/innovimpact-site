@@ -16,9 +16,9 @@ export default function Header() {
         <div>
           <h2 className="extraBold font60">INNOVIMPACT – Automation. Intelligence. Simplicity.</h2>
           <HeaderP className="font13 semiBold">
-InnoV Impact is a forward-driven automation startup helping businesses eliminate manual, repetitive tasks using smart, AI-enhanced tools like Python, Power Automate, Excel scripting, Microsoft 365 integrations, and more.<br />
+InnoV Impact is a forward-driven automation startup helping businesses eliminate manual, repetitive tasks using smart, AI-enhanced tools.<br />
 
-Unlike most automation providers, we don’t ask you to change your systems or rebuild from scratch — if your tools work, we make them work smarter.
+Unlike most automation providers, we don’t ask you to change your systems or rebuild from scratch — if your tools work, we make them work smarter.<br />
 Our mission is to exploit your existing sources, automate what matters, and deliver measurable impact through simplicity, intelligence, and real business value.
           </HeaderP>
           <BtnWrapper>
