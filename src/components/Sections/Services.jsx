@@ -33,34 +33,40 @@ export default function Services() {
             <ServiceBoxWrapper>
               <ServiceBox
                 icon="dash"
-                title="📊 Web Data workflows, dashboards & alerts"
-                subtitle=""
+                title="📊 Web Data workflows, dashboards"
+                subtitle="We streamline the collection, transformation, and visualization of web-based data. Whether it's monitoring real-time KPIs or tracking external data, we build intuitive dashboards and automated alerts that help teams stay informed and make fast, data-driven decisions."
+              />
+            </ServiceBoxWrapper>
+            <ServiceBoxWrapper>
+              <ServiceBox
+                icon="browser"
+                title="🧠 AI-enhanced business automation"
+                subtitle="We bring intelligence to your operations. From predictive analytics to intelligent document processing, our AI-driven automations help reduce manual workload, uncover insights, and accelerate business outcomes with minimal human input."
               />
             </ServiceBoxWrapper>
             <ServiceBoxWrapper>
               <ServiceBox
                 icon="monitor"
-                title="🧠 AI-enhanced business automation"
-                subtitle=""
+                title={
+                  <>
+                    🤖 RPA
+                    <br />
+                    & task bots
+                  </>
+                }
+                subtitle="Robotic Process Automation (RPA) and smart task bots handle rule-based, repetitive tasks with speed and precision. From data entry to system integrations, they ensure high-volume operations are executed flawlessly—24/7."
               />
             </ServiceBoxWrapper>
             <ServiceBoxWrapper>
               <ServiceBox
-                icon="brain"
-                title="🤖 RPA & task bots"
-                subtitle=""
-              />
-            </ServiceBoxWrapper>
-                        <ServiceBoxWrapper>
-              <ServiceBox
-                icon="printer"
+                icon="roller"
                 title="📩 Email + Excel automations"
-                subtitle=""
+                subtitle="We automate repetitive email and spreadsheet tasks, such as daily report generation, data extraction, or conditional email triggers. This cuts down on errors and time wasted, allowing your team to focus on more strategic work and tasks."
               />
             </ServiceBoxWrapper>
-            <ServiceBoxWrapper>
+            {/* <ServiceBoxWrapper>
               <ServiceBox icon="browser" title="🔗 Integrations (Teams, Gmail, Microsoft 365, Power BI, Google Workspace)" subtitle="" />
-            </ServiceBoxWrapper>
+            </ServiceBoxWrapper> */}
           </ServiceBoxRow>
         </div>
         <div className="lightBg">
@@ -69,11 +75,11 @@ export default function Services() {
               <AddLeft>
                 <h4 className="font15 semiBold"></h4>
                 <h2 className="font40 extraBold">The Value We Bring</h2>
-                <p className="font15">
-                  ✅ Save hours of manual work weekly   <br />
+                <p className="font15 semiBold">
+                  ✅ Save hours of manual work weekly <br />
                   📊 Improve reporting accuracy and consistency <br />
-                  ⚡ Get real-time insights instead of static reports   <br />
-                 💸 Cut operational costs by reducing manual overhead  <br />
+                  ⚡ Get real-time insights instead of static reports <br />
+                  💸 Cut operational costs by reducing manual overhead <br />
 
                 </p>
                 <ButtonsRow className="flexNullCenter" style={{ margin: "30px 0"}}>

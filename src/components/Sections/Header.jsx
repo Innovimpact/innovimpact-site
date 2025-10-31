@@ -18,7 +18,8 @@ export default function Header() {
           <HeaderP className="font13 semiBold">
 InnoV Impact is a forward-driven automation startup helping businesses eliminate manual, repetitive tasks using smart, AI-enhanced tools like Python, Power Automate, Excel scripting, Microsoft 365 integrations, and more.<br />
 
-We build custom automation solutions that save time, reduce error, and improve decision-making across operations.
+Unlike most automation providers, we don’t ask you to change your systems or rebuild from scratch — if your tools work, we make them work smarter.
+Our mission is to exploit your existing sources, automate what matters, and deliver measurable impact through simplicity, intelligence, and real business value.
           </HeaderP>
           <BtnWrapper>
             <Link to="contact" smooth={true} duration={500} offset={-80}>

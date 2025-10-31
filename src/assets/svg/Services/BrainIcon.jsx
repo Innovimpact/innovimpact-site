@@ -2,7 +2,7 @@ import * as React from "react";
 
 function BotIcon(props) {
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" width={40} height={40} viewBox="0 0 64 64" {...props}>
+    <svg xmlns="http://www.w3.org/2000/svg" width={43.336} height={32.531} viewBox="0 0 64 64" {...props}>
       <rect width="64" height="64" rx="12" fill="#4cd5c5" />
       <g fill="#0b093b">
         <circle cx="22" cy="26" r="4" />

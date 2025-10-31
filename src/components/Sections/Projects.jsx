@@ -30,29 +30,11 @@ export default function Projects() {
             <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
               <ProjectBox
                 img={ProjectImg1}
-                title="📩 Email & Report Automation at Scale"
-                text="Automatically extract structured data from PDF attachments, Excel files, or even email bodies. Clean, normalize, and push results to Google Drive, SharePoint, or auto-send personalized reports — zero manual effort."
+                title="✅ Save Hours of Manual Work Weekly"
+                text="Automate repetitive tasks like updates, file merging, and validations to free up your team’s time and eliminate tedious work from their day."
                 // action={() => alert("clicked")}
               />
             </div>
-            <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-              <ProjectBox
-                img={ProjectImg2}
-                title="📊 Live Business Dashboards for Instant Clarity"
-                text="We turn complex, messy data into clean, real-time Power BI dashboards — enabling managers to track KPIs, spot trends, and make decisions before delays or errors ever occur."
-                // action={() => alert("clicked")}
-              />
-            </div>
-            <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-              <ProjectBox
-                img={ProjectImg3}
-                title="🤖 RPA-Powered Workflow Automation"
-                text="Eliminate repetitive tasks like copy-pasting between Excel and CRMs or forwarding email chains. Our bots operate 24/7, reducing human error and freeing your team for higher-value work."
-                // action={() => alert("clicked")}
-              />
-            </div>
-          </div>
-          <div className="row textCenter">
             <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
               <ProjectBox
                 img={ProjectImg4}
@@ -61,6 +43,16 @@ export default function Projects() {
                 // action={() => alert("clicked")}
               />
             </div>
+            <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+              <ProjectBox
+                img={ProjectImg2}
+                title="📩📊 Automated Reporting & Real-Time Dashboards"
+                text="We automate data extraction from emails, PDFs, and Excel files — then deliver clean reports or sync to Google Drive and SharePoint. At the same time, we turn that data into real-time Power BI dashboards, giving you instant visibility into KPIs and trends for faster, smarter decisions."
+                // action={() => alert("clicked")}
+              />
+            </div>
+          </div>
+          <div className="row textCenter">
             <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
               <ProjectBox
                 img={ProjectImg5}
@@ -74,6 +66,14 @@ export default function Projects() {
                 img={ProjectImg6}
                 title="🛠️ Custom Automation Scripts for Unique Business Needs"
                 text="From matching inconsistent naming in reports to building auto-updating reference tables — we build Python-based tools that adapt to your operations and scale as you grow."
+                // action={() => alert("clicked")}
+              />
+            </div>
+            <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+              <ProjectBox
+                img={ProjectImg3}
+                title="💸 Lower Costs, Fewer Errors"
+                text="Cut operational costs by reducing manual overhead and minimizing human error in complex, high-volume operations.."
                 // action={() => alert("clicked")}
               />
             </div>
